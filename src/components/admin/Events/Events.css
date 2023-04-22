@@ -1,0 +1,36 @@
+.eventStatus{
+    background-color: rgba(47, 191, 248, 0.205);
+    border-radius:8px;
+}
+.statusText{
+    color:rgb(153, 153, 153);
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+.statusText:hover, .activeStatus{
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+}
+
+.bar01{
+    border:1px solid #fff;
+    position: absolute;
+    top: 0px;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.eventBox{
+    margin-top: 15px;
+    background-color: rgba(47, 191, 248, 0.205);
+    border-radius:8px;
+}
+

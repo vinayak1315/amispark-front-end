@@ -1,0 +1,16 @@
+.dashSuccess{
+    background-color: rgba(10, 190, 10, 0.466);
+  border-radius: 12px;
+    
+}
+.dashPrimary{
+    background-color: rgba(15, 124, 197, 0.466);
+    border-radius: 12px;
+}
+
+
+.dashEvent{
+    color:#ffffff;
+    letter-spacing: 5px;
+    font-size: 50px;
+  }

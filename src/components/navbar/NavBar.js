@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import './Navbar.css'
 // Images
 import logo from '../../Images/amity_logo.png';
@@ -56,14 +56,10 @@ const Navbar = () => {
                                     <FaTimes className='toggle-icons icon_02' />
                                 </li>
                                 <li className="d-flex align-items-center" onClick={() => { setToggler(false); }}>
-                                    <NavLink exact to='/' style={{ textDecoration: "none" }} className="nav_lists" activeClassName="active">Home</NavLink>
-                                </li>
-
-                                <li className="d-flex align-items-center" onClick={() => { setToggler(false); }}>
-                                    <NavLink activeClassName="active" to="/about" className="nav_lists" style={{ textDecoration: "none" }} >Feedback</NavLink>
+                                    <Link exact to='/' style={{ textDecoration: "none" }} className="nav_lists">Home</Link>
                                 </li>
                                 <li className="d-flex align-items-center" onClick={() => { setToggler(false); }}>
-                                    <NavLink exact to='/contact' style={{ textDecoration: "none" }} className="nav_lists" activeClassName="active">Resend Verification</NavLink>
+                                    <Link exact to='/registeration' style={{ textDecoration: "none" }} className="nav_lists">Registeration</Link>
                                 </li>
                             </ul>
                         </div>

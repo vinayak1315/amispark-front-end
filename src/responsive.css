@@ -1,135 +1,185 @@
 @media screen and (max-width: 1044px) {
-    .home_bg{
-        background-image: url('./Images/peakpx.jpg');
-        background-repeat: no-repeat;
-        height: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-      }
-      .homeHeader{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;;
-        flex-direction: column;
-        height: 55vh;
-      }
-      .homeHeader h1 {
-        font-size: 40px;
-        color:#fff;
-      }
+  body {
+    background-image: url('./Images/peakpx.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
 
-      .register_btn{
-        background-color: transparent;
-        padding: 10px 10px;
-        border: 2px solid #fff;
-        border-radius: 6px;
-        font-size: 18px;
-        color:#fff;
-        margin-top: 50px;
-        backdrop-filter: blur(5px); 
-        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.329);
-        transition: 0.5s;
-      }
-      .register_btn:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        color: #fff;
-      }
+  .homeHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    ;
+    flex-direction: column;
+    height: 55vh;
+  }
 
-      .banner{
-        padding: 20px 0px;
-        display: flex;
-        align-items: center;
-        width: 100%;
-      }
+  .homeHeader h1 {
+    font-size: 40px;
+    color: #fff;
+  }
 
-      .poster_img{
-        width: 250px;
-        border-radius: 8px;
-        height: 400px;
-      }
+  .register_btn {
+    background-color: transparent;
+    padding: 10px 10px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 50px;
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.329);
+    transition: 0.5s;
+  }
 
-      .bannerGap {
-        overflow-x: scroll;
-        gap:15px
-      }
-      .bannersEffect {
-        box-shadow: 0px 10px 30px #1587C317;
-        width: 250px;
-        position: relative;
-        cursor: pointer;
-      }
-      .img_overlay p {
-        line-height: 20px;
-        margin-top: 10px;
-        letter-spacing: 0.4px;
-        font-size: 18px;
-      }
-      .img_overlay {
-        background: transparent linear-gradient(180deg, #090a0ae8 0%, #811297d9 100%) 0% 0% no-repeat padding-box;
-        position: absolute;
-        top: -100%;
-        left: 0;
-        border-radius: 8px;
-        padding: 16px 18px;
-        color: #fff;
-        height: 100%;
-        width: 100%;
-        transition: all ease 0.7s;
-      }
-      
-      .bannersEffect:hover .img_overlay {
-        top: 0;
-      }
-      .eventName{
-        font-size: 18px;
-      }
-      .userName{
-        text-transform: uppercase;
-        font-size: 12px;
-      }
-      .img_overlay p {
-        line-height: 15px;
-        margin-top: 10px;
-        letter-spacing: 0.2px;
-        font-size: 12px;
-      }
-      .title {
-        font-size: 12px;
-      }
-      .m-10{
-        margin-top:10px!important
-      }
-      .registerBtn{
-        background-color: transparent;
-        padding: 5px 20px;
-        border: 2px solid #fff;
-        border-radius: 6px;
-        font-size: 12px;
-        color:#fff;
-        margin-top: 10px;
-        backdrop-filter: blur(5px); 
-        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.329);
-        transition: 0.5s;
-      }
-      
-      .registerBtn:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        color: #fff;
-      }
+  .register_btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #fff;
+  }
 
-      .footer {
-        background-color: #3d3953;
-        padding: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color:#fff;
-        text-transform: uppercase;
-        letter-spacing: 0.7px;
-        font-size: 15px;
-      }
+  .banner {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
 
+  .poster_img {
+    width: 250px;
+    border-radius: 8px;
+    height: 400px;
+  }
+
+  .bannerGap {
+    overflow-x: scroll;
+    gap: 15px
+  }
+
+  .bannersEffect {
+    box-shadow: 0px 10px 30px #1587C317;
+    width: 250px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .img_overlay p {
+    line-height: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.4px;
+    font-size: 18px;
+  }
+
+  .img_overlay {
+    background: transparent linear-gradient(180deg, #090a0ae8 0%, #811297d9 100%) 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    border-radius: 8px;
+    padding: 16px 18px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    transition: all ease 0.7s;
+  }
+
+  .bannersEffect:hover .img_overlay {
+    top: 0;
+  }
+
+  .eventName {
+    font-size: 18px;
+  }
+
+  .userName {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .img_overlay p {
+    line-height: 15px;
+    margin-top: 10px;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .m-10 {
+    margin-top: 10px !important
+  }
+
+  .registerBtn {
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.329);
+    transition: 0.5s;
+  }
+
+  .registerBtn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: #fff;
+  }
+
+  .footer {
+    background-color: #3d3953;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-size: 15px;
+  }
+
+  .registeration {
+    color: #fff;
+    margin: 20px;
+    padding: 30px 20px;
+    border-radius: 14px;
+    background-color: #0000005d;
+    width: auto;
+  }
+
+  .registerInput {
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid #c7c7c7b6;
+    background-color: transparent;
+    width: 100%;
+    color:#fff;
+    margin-top: 20px;
+  }
+  .registerInput:focus {
+    outline:none;
+  }
+  .registerInput::placeholder {
+    color:#fff
+  }
+  .option_val{
+    background-color: #fff;
+    color:#000;
+  }
+.toggle{
+  font-size: 35px;
+  color: rgb(226, 34, 226);
+}
+  .yourselfFont {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
 }

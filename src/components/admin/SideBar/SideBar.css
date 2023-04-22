@@ -1,0 +1,55 @@
+.main_contianer{
+    display: flex;
+}
+
+.sideBar{
+    background-color: rgba(177, 177, 177, 0.158);
+    height: 100vh;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.rotate{
+    rotate: 180deg;
+    transition: 0.4s;
+}
+.transition {
+    transition: 0.4s;
+}
+
+.title{
+    font-size: 25px;
+}
+.lists{
+    gap:15px;
+    text-decoration: none!important;
+    padding: 15px 20px;
+    color:#fff;
+    cursor: pointer;
+}
+.lists:hover, .active{
+    gap:15px;
+    text-decoration: none!important;
+    padding: 15px 20px;
+    background-color: #ffffff94;
+    transition: 0.4s;
+    color:#000;
+    border-right: 4px solid #fff;
+}
+
+.logout{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    font-size: 35px;
+    border: 2px solid #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.logout:hover{
+    background-color: #fff;
+    color:#000;
+}
